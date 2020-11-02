@@ -115,7 +115,7 @@ header.masthead {
   padding-bottom: 100px;
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left,#7b4397, #dc2430, blue, green);
 }
 
 header.masthead .header-content {
@@ -226,7 +226,7 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430, blue, green);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -296,8 +296,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: linear-gradient(#fdcc52, #fdc539);
+  background:#fdcc52;
+  background: linear-gradient( #fdc539,white, #fdcc52, green, blue);
 }
 
 .text-primary {
@@ -311,7 +311,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline {
   color: white;
-  border: 1px solid;
+  border: 5px solid;
   border-color: white;
 }
 
@@ -329,6 +329,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-xl {
-  font-size: 11px;
+  font-size: 20px;
   padding: 15px 45px;
 }
